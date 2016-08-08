@@ -1,0 +1,24 @@
+
+
+install node.js
+Open command promt and check for node version to make sure node is installed.
+C:\>node -v
+
+install topojson module for node js
+C:\>npm install -g topojson
+
+C:\>topojson -s 7e-8 -p -o output.json input.json
+
+For example:.
+C:\>topojson -s 7e-8 -p -o West_Bengal.json file_path/West_Bengal.geojson
+
+Where -s = simplification of the geojson points and 7e-8 is the amount of simplification on the geojson points
+      -p = list of parameters (leave blank for getting all parameters)
+      -o = output file name
+	
+Note: Once the conversion is done, please open the output file and check for the objects key in line 1	
+For Example: West_Bengal.json(converted file):
+{"type":"Topology","objects":{"West_Bengal":{"type":"GeometryCollection"
+if the objects key is not same as the filename, the you have to manually change it accordingly.
+
+
