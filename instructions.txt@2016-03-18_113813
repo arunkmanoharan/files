@@ -1,0 +1,8 @@
+install node.js
+
+node -v
+
+npm install -g topojson
+topojson -s 7e-8 -p -o output.json input.json
+
+-s 7e-8 -p for simplification
