@@ -1,0 +1,8 @@
+"serial_no", "state_name", "sub_region", "year", "pc_no", "pc_name", "pc_pdf", "pc_type", "urban_percent", "urban_type", "poll_date", "poll_month", "phase", "male_electors", "male_voters", "male_turnout", "female_electors", "female_voters", "female_turnout", "electors", "voters", "valid_votes", "votes_rejected", "postal_voters", "turnout", "n_cand", "enop_vot", "position", "year_dup", "pc_name1", "cand1", "sex1", "party1", "cand_type", "contested", "first_election", "incumbent", "jati", "caste_rec", "rel", "yob", "party_dup", "party_type", "votes1", "percent1", "margin","ga_no"
+
+
+
+
+"year", "ga_no", "state", "pc_no", "pc_name", "turnout", "vote_percent", "pc_type", "electors", "voters", "margin", "n_cand", "position", "sex1", "party1", "votes1", "cand1", "religion", "margin_percent", "runner", "runner_party", "runner_sex", "nota_percent"
+
+
