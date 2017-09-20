@@ -1,4 +1,8 @@
 function checkPalindrome($input) {
   $formatted = preg_replace("/[^a-zA-Z0-9]+/", "", strtolower($input));
-  echo $formatted === strrev($formatted) ? 'yes' : 'no';
+	echo $formatted === strrev($formatted) ? 'yes' : 'no';
 }
+
+
+checkPalindrome("aSr'^h^Rsa"); //is a palindrome
+checkPalindrome("aSr'^0h^Rsa"); // not a palindrome
