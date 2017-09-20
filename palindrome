@@ -6,3 +6,7 @@ function checkPalindrome($input) {
 
 checkPalindrome("aSr'^h^Rsa"); //is a palindrome
 checkPalindrome("aSr'^0h^Rsa"); // not a palindrome
+
+function checkPalindrome($input) {
+echo preg_replace("/[^a-zA-Z0-9]+/", "", strtolower($input)) === preg_replace("/[^a-zA-Z0-9]+/", "", strrev(strtolower($input))) ? 'yes' : 'no';
+}
