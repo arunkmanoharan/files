@@ -1,0 +1,4 @@
+function checkPalindrome($input) {
+  $formatted = preg_replace("/[^a-zA-Z0-9]+/", "", strtolower($input));
+  echo $formatted === strrev($formatted) ? 'yes' : 'no';
+}
